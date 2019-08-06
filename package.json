@@ -1,0 +1,26 @@
+{
+  "name": "ogp_redirect",
+  "version": "1.0.0",
+  "description": "attach The Open Graph protocol metadata, then redirect",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexLeoTW/ogp_redirect.git"
+  },
+  "author": "AlexLeoTW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexLeoTW/ogp_redirect/issues"
+  },
+  "homepage": "https://github.com/AlexLeoTW/ogp_redirect#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nanohtml": "^1.6.3",
+    "yargs": "^13.3.0"
+  }
+}

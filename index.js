@@ -10,7 +10,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
-  res.render('index', {url: `http://${cmdargv.domain}:${cmdargv.port}`});
+  res.render('index', cmdargv);
 });
 
 app.use(function(err, req, res, next){

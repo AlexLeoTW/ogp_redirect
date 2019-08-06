@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Redirecting...</title>
-    <meta property="og:image" content="<%- url %>/iecs.png" />
+    <meta property="og:image" content="http://<%- domain %>:<%- port %>/<%- image %>" />
   </head>
   <body>
-    <img src="<%- url %>/iecs.png" alt="FCU IECS"><br/>
+    <img src="http://<%- domain %>:<%- port %>/<%- image %>"><br/>
     Redirecting...
   </body>
   <script type="text/javascript">
-
+     setTimeout(() => {
+       window.location.href = "<%- redirect %>";
+     }, 10);
   </script>
 </html>

@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/AlexLeoTW/ogp_redirect#readme",
   "dependencies": {
-    "ejs": "^2.6.2",
-    "express": "^4.17.1",
-    "nanohtml": "^1.6.3",
-    "yargs": "^13.3.0"
+    "ejs": "^2.6.x",
+    "express": "^4.17.x",
+    "morgan": "^1.9.x",
+    "nanohtml": "^1.6.x",
+    "yargs": "^13.3.x"
   }
 }

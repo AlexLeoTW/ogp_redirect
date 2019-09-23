@@ -2,9 +2,9 @@
 
 ## Quick Start
 
-1. `mkdir public`, then copy image to be used for `og:image` into the folder
+1. `cp <img> logo.png`, copy image to be used for `og:image` into the folder
 2. `npm install` to install the dependencies
-3. `DEBUG=ogp_redirect:* node index.js --domain example.com --port 80 --image logo.png --redirect https://github.com/AlexLeoTW/ogp_redirect/`
+3. `DEBUG=ogp_redirect:* node index.js --domain example.com --port 80 --redirect https://github.com/AlexLeoTW/ogp_redirect/`
 
 ## Usage:
 

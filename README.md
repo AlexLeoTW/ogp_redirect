@@ -20,3 +20,18 @@ Options：
   --redirect, -r  urls to direct to
   --help          display help
 ```
+
+--------------------------------------------------------------------------------
+
+## Using `Docker`
+
+1. `cp <img> logo.png`, copy image to be used for `og:image` into the folder
+2. `docker build -t ogp_redirect:latest .` build the container
+3. `docker run -p 3000:3000 -it ogp_redirect:latest` run the container
+
+or you can mount pictures into the container with `-v`:
+
+```sh
+docker run -p 3000:3000 -v $PWD:/ogp_redirect/public/ext -it ogp_redirect:latest \
+    --image ext/logo.png
+```

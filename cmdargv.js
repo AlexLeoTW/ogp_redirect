@@ -1,10 +1,6 @@
 const argv = require('yargs')
   .usage('Attach The Open Graph protocol metadata, then redirect' + '\n  ' +
     'Usage: $0 [--port <port>]')
-  .option('domain', {
-      description: 'domain or ip',
-      default: 'localhost',
-  })
   .option('port', {
       description: 'which port to listen on',
       default: 3000,

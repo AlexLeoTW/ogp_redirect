@@ -12,6 +12,7 @@ app.use(logger('dev'));
 app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
+  cmdargv.domain = cmdargv.domain ? cmdargv.domain : req.hostname
   res.render('index', cmdargv);
 });
 

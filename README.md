@@ -14,7 +14,6 @@ Attach The Open Graph protocol metadata, then redirect
 
 Options：
   --version       show version
-  --domain        domain or ip
   --port, -p      which port to listen on
   --image, -i     which image to use(og:image)
   --redirect, -r  urls to direct to
